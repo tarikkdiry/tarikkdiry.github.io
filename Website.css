@@ -9,6 +9,8 @@ body {
   background-size: cover;
   margin-top: 10%;
   margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h1 {
@@ -40,6 +42,7 @@ head {
     position: relative;
     top: 35px;
     right: 18px;
+    margin-top: 0px;
 }
 
 .me:hover {
@@ -92,10 +95,13 @@ head {
     color: #222;
 }
 
-.socialmedia a:hover, .social a:focus {
-    outline: none;
-    background-color: #536569;
-    color: #536569;
+.socialmedia a .fa {
+  font-size: 2.2em;
+  color: #222;
+}
+
+.socialmedia a:hover .fa-facebook {
+  color: #4267B2;
 }
 
 .socialmedia a .fa {
@@ -111,4 +117,47 @@ head {
        url("../fonts/foundation-icons.svg#fontcustom") format("svg");
   font-weight: normal;
   font-style: normal;
+}
+
+.socialmedia a:hover > .fa-envelope-o{
+  color:red;
+}
+.socialmedia a:hover > .fa-facebook{
+  color:#3b5998;
+ }
+.socialmedia a:hover > .fa-twitter{
+  color:#55acee;
+}
+.socialmedia a:hover > .fa-instagram{
+  color:#5851db;
+}
+.socialmedia a:hover > .fa-linkedin{
+  color:#0077b5;
+}
+.socialmedia a:hover > .fa-linkedin{
+  color:#0077b5;
+}
+.socialmedia a:hover > .fa-github{
+  color:#333333;
+}
+.socialmedia a:hover > .fa-pinterest{
+  color:#bd081c;
+}
+
+
+.links {
+    color: #FFFFFF;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.links a {
+    display: inline-block;
+    padding: 0 5px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #FFFFFF;
 }
