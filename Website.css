@@ -42,7 +42,6 @@ head {
     position: relative;
     top: 35px;
     right: 18px;
-    margin-top: 0px;
 }
 
 .me:hover {
@@ -147,7 +146,7 @@ head {
 
 .links {
     color: #FFFFFF;
-    margin-top: 30px;
+    margin-top: 10px;
     text-decoration: none;
 }
 
@@ -156,8 +155,9 @@ head {
     padding: 0 5px;
     font-weight: 100;
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 .links a:hover {
-    color: #FFFFFF;
+    color: gray;
 }
