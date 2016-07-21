@@ -1,3 +1,3 @@
 # Tarik Kdiry Social Media Page
 
-![screenshot](tarikkdiryscreenshot.png?raw=true "Tarik Kdiry")
+![screenshot](Example.png?raw=true "Tarik Kdiry")
