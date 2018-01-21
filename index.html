@@ -10,20 +10,36 @@
 
 		<title>Tarik Kdiry</title>
 	    <link rel="stylesheet" href="Website.css" type="text/css" />
+
+	<style>
+		.fade-in{
+			 -webkit-animation: fade-in 2s ease;
+			 -moz-animation: fade-in ease-in-out 2s both;
+			 -ms-animation: fade-in ease-in-out 2s both;
+			 -o-animation: fade-in ease-in-out 2s both;
+			 animation: fade-in 2s ease;
+			 visibility: visible;
+			 -webkit-backface-visibility: hidden;
+		}
+		@-webkit-keyframes fade-in{0%{opacity:0;} 100%{opacity:1;}}
+		@-moz-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+		@-o-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+		@keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+	</style>
+
 	</head>
 	<body>
 		<div class="main">
 			<ul>
 				<a href="https://www.linkedin.com/in/tarik-kdiry-0b62b8100">
-					<img src="tarik_kdiry.jpg" style="width:200px;height:200px;margin-right:38.5;margin-left:38.5;" alt="This is me :D" class="me">
+					<img src="images/tarik_kdiry.jpg" style="width:200px;height:200px;margin-right:38.5;margin-left:38.5;" alt="This is me :D" class="me">
 				</a>
 			</ul>
-
 	    			<h1>< Tarik Kdiry /></h1>
 						<h3>B.E. Software Engineering Student</h3>
 	    			<h3>Stevens Institute of Technology</h3>
-
 			<center>
+			<div id="banner-load"></div>
 			<div class="socialmedia">
 		        <a href="mailto:tarik.kdiry@gmail.com" title="Email">
 		        	<i class="fa fa-envelope-o"></i>
@@ -53,7 +69,14 @@
       </div>
 	</div>
     	</center>
-			<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+			<!---SCRIPTS--->
+			<!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script> -->
+			<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
+			<script>
+		    var images = ['IMG_0242.JPG', 'IMG_0243.JPG', 'IMG_0244.JPG', 'IMG_0247.JPG', 'IMG_0248.JPG', 'IMG_0251.JPG', 'IMG_0253.JPG', 'IMG_0256.JPG', 'IMG_0272.JPG', 'IMG_0274.JPG', 'IMG_0275.JPG'];
+				$('body').css('background-image', 'url(images/'+images[Math.floor(Math.random() * images.length)]+')')
+			</script>
 
 	</body>
 </html>
