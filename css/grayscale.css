@@ -550,3 +550,13 @@ img::-moz-selection {
   margin-bottom: 12%;
   margin-top: 25%;
 }
+
+.invert {
+  -webkit-filter: invert(100%);
+  
+}
+
+.programming_icons {
+  text-align: justify;
+  display: inline-block;
+}
