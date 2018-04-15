@@ -216,7 +216,7 @@ a:focus, a:hover {
   display: table;
   width: 100%;
   height: auto;
-  padding: 150px 0;
+  padding: 150px ;
   text-align: center;
   color: white;
   background: url("../img/orangecity.gif") no-repeat bottom center scroll;
@@ -546,6 +546,10 @@ img::-moz-selection {
   }
 }
 
+.info {
+  border-radius: 50%;
+}
+
 .info:hover {
    outline: #42DCA3 solid 2px;
    border-radius: 25px;
@@ -558,7 +562,6 @@ img::-moz-selection {
 
 .invert {
   -webkit-filter: invert(100%);
-
 }
 
 .programming_icons {
