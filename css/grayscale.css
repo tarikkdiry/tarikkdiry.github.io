@@ -593,7 +593,7 @@ img::-moz-selection {
 }
 
 .letter {
-  display:inline;
+  display: inline;
   font-family: 'Jura', sans-serif;
   font-weight: 700;
   margin: 0 0 30px;
