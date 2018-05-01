@@ -608,8 +608,9 @@ img::-moz-selection {
 }
 
 .french:after{
-  content:'apprendre une nouvelle langue';
+  content:'apprendre de nouvelles langues';
 }
 .french:hover:after{
-  content:'      learning a new language     ';
+  font-weight: bold;
+  content:'      learning new languages    ';
 }
