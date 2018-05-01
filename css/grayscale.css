@@ -606,3 +606,10 @@ img::-moz-selection {
   color: #42DCA3;
   cursor: default;
 }
+
+.french:after{
+  content:'apprendre une nouvelle langue';
+}
+.french:hover:after{
+  content:'      learning a new language     ';
+}
