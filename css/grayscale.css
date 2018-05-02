@@ -609,7 +609,9 @@ img::-moz-selection {
 
 .french:after{
   content:'apprendre de nouvelles langues';
+  font-style: italic;
 }
+
 .french:hover:after{
   font-weight: bold;
   content:'      learning new languages    ';
