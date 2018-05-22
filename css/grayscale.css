@@ -607,7 +607,7 @@ img::-moz-selection {
   cursor: default;
 }
 
-.french:after{
+/* .french:after{
   content:'apprendre de nouvelles langues';
   font-style: italic;
 }
@@ -615,4 +615,4 @@ img::-moz-selection {
 .french:hover:after{
   font-weight: bold;
   content:'      learning new languages    ';
-}
+} */
